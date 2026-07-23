@@ -10,6 +10,7 @@ Long-form summary articles for [AI Build Group Ltd](https://www.ai-build.ltd) â€
 |---|---|---|---|
 | ChatGPT Business Discount Code UK | ChatGPT Business discount code UK | [chatgpt-business/discount-code-uk.md](chatgpt-business/discount-code-uk.md) | [chatgpt-business/discount-code-uk.html](chatgpt-business/discount-code-uk.html) |
 | ChatGPT Business Partner Pricing UK | ChatGPT Business partner pricing UK | [chatgpt-business/partner-pricing-uk.md](chatgpt-business/partner-pricing-uk.md) | [chatgpt-business/partner-pricing-uk.html](chatgpt-business/partner-pricing-uk.html) |
+| ChatGPT Business Pricing UK | ChatGPT Business pricing UK | [chatgpt-business/pricing-uk.md](chatgpt-business/pricing-uk.md) | [chatgpt-business/pricing-uk.html](chatgpt-business/pricing-uk.html) |
 
 ## Folders
 
