@@ -1,0 +1,16 @@
+# AI Build Website Summaries
+
+Long-form summary articles for [AI Build Group Ltd](https://www.ai-build.ltd) — UK & Ireland OpenAI SMB Channel Partner for ChatGPT Business. These Markdown summaries mirror published Claude Artifacts and are indexable references for ChatGPT Business and OpenAI partner topics.
+
+**Offers, pricing, and eligibility are not managed here.** Current partner offers, pricing, and eligibility always live on [ai-build.ltd](https://www.ai-build.ltd) — treat any figures in these summaries as informational and follow the CTA links for the current, authoritative offer.
+
+## Index
+
+| Title | Primary keyword | Link |
+|---|---|---|
+| ChatGPT Business Discount Code UK | ChatGPT Business discount code UK | [chatgpt-business/discount-code-uk.md](chatgpt-business/discount-code-uk.md) |
+
+## Folders
+
+- `chatgpt-business/` — ChatGPT Business rollout, pricing, discount code, and buyer guides
+- `partner/` — OpenAI SMB Channel Partner status and programme summaries
