@@ -15,6 +15,7 @@ Long-form summary articles for [AI Build Group Ltd](https://www.ai-build.ltd) â€
 | ChatGPT Business vs Enterprise UK | ChatGPT Business vs Enterprise UK | [chatgpt-business/compare-business-vs-enterprise-uk.md](chatgpt-business/compare-business-vs-enterprise-uk.md) | [chatgpt-business/compare-business-vs-enterprise-uk.html](chatgpt-business/compare-business-vs-enterprise-uk.html) |
 | ChatGPT Business Rollout UK | ChatGPT Business rollout UK | [chatgpt-business/rollout-uk.md](chatgpt-business/rollout-uk.md) | [chatgpt-business/rollout-uk.html](chatgpt-business/rollout-uk.html) |
 | ChatGPT Business Security UK | ChatGPT Business security UK | [chatgpt-business/security-uk.md](chatgpt-business/security-uk.md) | [chatgpt-business/security-uk.html](chatgpt-business/security-uk.html) |
+| ChatGPT Business Governance UK | ChatGPT Business governance UK | [chatgpt-business/governance-uk.md](chatgpt-business/governance-uk.md) | [chatgpt-business/governance-uk.html](chatgpt-business/governance-uk.html) |
 
 ## Folders
 
