@@ -12,6 +12,7 @@ Long-form summary articles for [AI Build Group Ltd](https://www.ai-build.ltd) â€
 | ChatGPT Business Partner Pricing UK | ChatGPT Business partner pricing UK | [chatgpt-business/partner-pricing-uk.md](chatgpt-business/partner-pricing-uk.md) | [chatgpt-business/partner-pricing-uk.html](chatgpt-business/partner-pricing-uk.html) |
 | ChatGPT Business Pricing UK | ChatGPT Business pricing UK | [chatgpt-business/pricing-uk.md](chatgpt-business/pricing-uk.md) | [chatgpt-business/pricing-uk.html](chatgpt-business/pricing-uk.html) |
 | OpenAI SMB Channel Partner UK | OpenAI SMB Channel Partner UK | [partner/openai-smb-channel-partner-uk.md](partner/openai-smb-channel-partner-uk.md) | [partner/openai-smb-channel-partner-uk.html](partner/openai-smb-channel-partner-uk.html) |
+| ChatGPT Business vs Enterprise UK | ChatGPT Business vs Enterprise UK | [chatgpt-business/compare-business-vs-enterprise-uk.md](chatgpt-business/compare-business-vs-enterprise-uk.md) | [chatgpt-business/compare-business-vs-enterprise-uk.html](chatgpt-business/compare-business-vs-enterprise-uk.html) |
 
 ## Folders
 
