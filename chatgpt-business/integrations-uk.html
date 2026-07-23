@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ChatGPT Business Integrations UK: Governed Connectors</title>
+<meta name="description" content="ChatGPT Business integrations for UK teams — how to prioritise connectors, set data boundaries, and avoid integrations becoming new shadow AI." />
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.65; color: #111; max-width: 780px; margin: 0 auto; padding: 40px 24px 80px; background: #fff; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin-bottom: 0.4em; }
+  h2 { font-size: 1.5rem; margin-top: 2.2em; border-bottom: 2px solid #111; padding-bottom: 0.3em; }
+  p { font-size: 1.05rem; }
+  .eyebrow { font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.75rem; color: #555; margin-bottom: 0.8em; }
+  .brief { background: #f5f5f5; border: 2px solid #111; padding: 20px; margin: 1.5em 0; }
+  .brief p { margin: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #111; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #111; color: #fff; font-family: 'Courier New', monospace; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.08em; }
+  .cta { display: block; text-align: center; background: #111; color: #fff !important; text-decoration: none; padding: 16px 24px; font-weight: bold; margin: 2em 0; border: 2px solid #111; }
+  .cta:hover { background: #fff; color: #111 !important; }
+  .faq dt { font-weight: bold; margin-top: 1.2em; }
+  .faq dd { margin: 0.4em 0 0; }
+  footer { margin-top: 3em; padding-top: 1.5em; border-top: 2px solid #111; font-size: 0.9rem; color: #444; }
+  a { color: #111; }
+  ul li { margin-bottom: 0.5em; }
+</style>
+</head>
+<body>
+
+<p class="eyebrow">UK OpenAI SMB Channel Partner</p>
+<h1>ChatGPT Business Integrations UK: Governed Connectors</h1>
+
+<p>Approved connectors, file context, and custom GPTs make ChatGPT Business useful on real work — when each integration passes through workflow design, data rules, and human review. ChatGPT Business integrates with Microsoft 365, CRM systems, documents, and internal knowledge sources inside a governed workspace.</p>
+
+<div class="brief">
+<p class="eyebrow" style="margin-bottom:0.4em;">In brief</p>
+<p>UK teams should prioritise high-value workflows with clear data boundaries and review owners — not connect every system on day one. Integration readiness means three starter workflows with measurable time savings, documented data boundaries per source system, a human review gate for every client- or regulator-facing output, and a workspace owner who approves connector expansion criteria.</p>
+</div>
+
+<p>Integrations without rules create new shadow AI. Teams want ChatGPT connected to CRM, email, and documents — but ungoverned connectors multiply data risk. Each connection needs a named workflow, data boundary, review owner, and escalation path before it scales beyond pilot users. This page is for IT leaders, power users, and team leads evaluating which tools to connect and in what order.</p>
+
+<h2>How do we prioritise which integrations to build first?</h2>
+<p>Start with workflow, not novelty — sales briefs, procedure drafts, and management summaries prove the pattern before you connect more systems. Modest integrations with high adoption beat ambitious connectors nobody trusts. Score each candidate on data sensitivity, review-gate complexity, and how many people would actually use it weekly, then build the highest-adoption, lowest-sensitivity option first.</p>
+
+<h2>Integration categories at a glance</h2>
+<table>
+  <thead>
+    <tr><th>Category</th><th>Examples</th><th>Governance</th><th>Starter workflow</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Microsoft 365</td><td>Word, Excel, Outlook, SharePoint summaries</td><td>Define which libraries and sensitivity labels are in scope</td><td>Draft management briefs from approved SharePoint packs</td></tr>
+    <tr><td>CRM &amp; sales</td><td>Account notes, opportunity summaries, follow-up drafts</td><td>Prohibit client commitments without human sign-off</td><td>Pre-call account brief from CRM notes</td></tr>
+    <tr><td>Documents &amp; knowledge</td><td>SOPs, handover notes, procedure updates</td><td>Version control and named review owner before publish</td><td>First-draft SOP from expert notes</td></tr>
+    <tr><td>Internal data sources</td><td>Logs, tickets, operational reports</td><td>Escalate safety, financial, and compliance outputs</td><td>Shift handover summary with exception flags</td></tr>
+  </tbody>
+</table>
+
+<h2>What data boundary questions should we ask before connecting a new source system?</h2>
+<p>Every connector decision should answer the same four questions before it goes live, not after a review flags a gap:</p>
+<ul>
+  <li>What categories of data does this source contain?</li>
+  <li>Who currently has access, and does that match who needs ChatGPT access?</li>
+  <li>Is there a human review gate before output reaches a client or regulator?</li>
+  <li>Who owns the decision to expand or roll back this connector?</li>
+</ul>
+
+<h2>What does a well-run first integration actually look like?</h2>
+<p>Take the CRM example from the category table: a pre-call account brief drafted from CRM notes. The workflow is narrow — one output type, one source system, one pilot team — which makes the data boundary easy to state precisely (account notes only, no pricing overrides, no commitments without a human checking the draft first) and the review gate simple to enforce (the account owner reads the brief before the call, every time, no exceptions). That narrowness is the point. A broad "connect our CRM to ChatGPT" integration with no specific workflow attached is much harder to govern, because nobody can say precisely what data flows where or who is responsible for catching a mistake.</p>
+<p>The same pattern applies across every category in the table above — Microsoft 365, documents and knowledge, internal data sources. Each starter workflow names one output, one source, and one review owner, rather than opening broad access and hoping people use it responsibly.</p>
+
+<h2>What happens when an integration needs to expand beyond the pilot?</h2>
+<p>Expansion should follow the same evidence-based approach as the rest of a ChatGPT Business rollout: usage data from the pilot workflow, not a request from another department that liked the idea. Before widening a connector's scope — more source data, more users, or a new output type — revisit the same four data boundary questions for the expanded version, because a data boundary that was fine for ten pilot users summarising their own account notes may not hold once fifty people across three teams are drafting client-facing output from the same connector.</p>
+
+<h2>Should every company tool connect to ChatGPT Business?</h2>
+<p>No. Start with high-value workflows where the data boundary, review process, and business owner are clear. Expand when pilot metrics show safe, useful patterns. A long list of connected systems is not itself an achievement — a small number of workflows people actually trust and use daily is worth more than broad but shallow connectivity.</p>
+
+<h2>Can ChatGPT Business access Microsoft 365 files?</h2>
+<p>Business workspaces support approved file and connector patterns. Confirm your data handling requirements, retention needs, and review gates before enabling document context at scale — the technical connection is usually the easy part; the governance decisions about which libraries and sensitivity labels are in scope take longer to get right.</p>
+
+<h2>Who approves new integrations?</h2>
+<p>Typically the workspace owner with input from IT and the workflow sponsor. Document approved sources, prohibited data types, and escalation paths in your AI use policy, so approval is not a one-off conversation that nobody can point back to later when a new team wants to connect something similar.</p>
+
+<h2>Do integrations increase our data risk compared to using ChatGPT Business without them?</h2>
+<p>Any new connection is a new data boundary to manage — integrations are not risk-free just because the licence is governed. That is exactly why each one needs a documented data boundary and review owner before it goes live, not after. The ChatGPT Business workspace itself does not remove the need for that discipline; it just gives you somewhere sensible to enforce it.</p>
+
+<h2>How many integrations should we run before wider rollout?</h2>
+<p>Most UK teams start with two or three well-used workflows rather than connecting every available system. Prove adoption and safe usage on a small set before expanding — connector sprawl with low usage is harder to govern than a handful of workflows everyone actually relies on, and it is much harder to explain to a client or regulator asking what data flows where.</p>
+
+<a class="cta" href="https://www.ai-build.ltd/chatgpt-business/integrations?utm_source=github_summaries&utm_medium=referral&utm_campaign=cb-integrations-uk">Get a workflow review →</a>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">
+  <dt>Should every company tool connect to ChatGPT Business?</dt>
+  <dd>No. Start with high-value workflows where the data boundary, review process, and business owner are clear.</dd>
+
+  <dt>Can ChatGPT Business access Microsoft 365 files?</dt>
+  <dd>Business workspaces support approved file and connector patterns. Confirm data handling requirements and review gates before enabling document context at scale.</dd>
+
+  <dt>Who approves new integrations?</dt>
+  <dd>Typically the workspace owner with input from IT and the workflow sponsor, documented in your AI use policy.</dd>
+
+  <dt>How does AI Build help with integrations?</dt>
+  <dd>We prioritise workflows, define data boundaries, and supply review templates so connector rollouts stay explainable to leadership, clients, and regulators.</dd>
+
+  <dt>Do integrations increase our data risk compared to using ChatGPT Business without them?</dt>
+  <dd>Any new connection is a new data boundary to manage — each one needs a documented boundary and review owner before it goes live.</dd>
+
+  <dt>How many integrations should we run before wider rollout?</dt>
+  <dd>Most UK teams start with two or three well-used workflows rather than connecting every available system.</dd>
+</dl>
+
+<p>For the rollout timeline integrations fit into, see the <a href="https://www.ai-build.ltd/chatgpt-business/implementation?utm_source=github_summaries&utm_medium=referral&utm_campaign=cb-integrations-uk">implementation guide</a>. For the policy detail behind connector approval, see <a href="https://www.ai-build.ltd/chatgpt-business/governance?utm_source=github_summaries&utm_medium=referral&utm_campaign=cb-integrations-uk">governance controls</a>. To claim a discount code before scoping integrations, start with the <a href="https://www.ai-build.ltd/chatgpt-business/get-offer?utm_source=github_summaries&utm_medium=referral&utm_campaign=cb-integrations-uk">discount code page</a>.</p>
+
+<a class="cta" href="https://www.ai-build.ltd/chatgpt-business/integrations?utm_source=github_summaries&utm_medium=referral&utm_campaign=cb-integrations-uk">Book an integration call →</a>
+
+<footer>
+  <strong>About AI Build Group Ltd.</strong> AI Build Group is a UK OpenAI SMB Channel Partner based in Sittingbourne, Kent, helping UK and Ireland organisations deploy governed ChatGPT Business workspaces, Microsoft 365 automation, and AI adoption support. The company combines partner pricing with hands-on rollout, governance, and training — not just a licence transaction. Full details at <a href="https://www.ai-build.ltd/openai-partner-uk?utm_source=github_summaries&utm_medium=referral&utm_campaign=cb-integrations-uk">ai-build.ltd/openai-partner-uk</a>.
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Should every company tool connect to ChatGPT Business?", "acceptedAnswer": { "@type": "Answer", "text": "No. Start with high-value workflows where the data boundary, review process, and business owner are clear." } },
+    { "@type": "Question", "name": "Can ChatGPT Business access Microsoft 365 files?", "acceptedAnswer": { "@type": "Answer", "text": "Business workspaces support approved file and connector patterns. Confirm data handling requirements and review gates before enabling document context at scale." } },
+    { "@type": "Question", "name": "Who approves new integrations?", "acceptedAnswer": { "@type": "Answer", "text": "Typically the workspace owner with input from IT and the workflow sponsor, documented in your AI use policy." } },
+    { "@type": "Question", "name": "How does AI Build help with integrations?", "acceptedAnswer": { "@type": "Answer", "text": "We prioritise workflows, define data boundaries, and supply review templates so connector rollouts stay explainable." } },
+    { "@type": "Question", "name": "Do integrations increase our data risk compared to using ChatGPT Business without them?", "acceptedAnswer": { "@type": "Answer", "text": "Any new connection is a new data boundary to manage — each one needs a documented boundary and review owner." } },
+    { "@type": "Question", "name": "How many integrations should we run before wider rollout?", "acceptedAnswer": { "@type": "Answer", "text": "Most UK teams start with two or three well-used workflows rather than connecting every available system." } }
+  ]
+}
+</script>
+
+</body>
+</html>
