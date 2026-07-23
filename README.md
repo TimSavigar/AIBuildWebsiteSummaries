@@ -18,6 +18,7 @@ Long-form summary articles for [AI Build Group Ltd](https://www.ai-build.ltd) â€
 | ChatGPT Business Governance UK | ChatGPT Business governance UK | [chatgpt-business/governance-uk.md](chatgpt-business/governance-uk.md) | [chatgpt-business/governance-uk.html](chatgpt-business/governance-uk.html) |
 | ChatGPT Business Implementation Guide UK | ChatGPT Business implementation guide UK | [chatgpt-business/implementation-uk.md](chatgpt-business/implementation-uk.md) | [chatgpt-business/implementation-uk.html](chatgpt-business/implementation-uk.html) |
 | ChatGPT Business FAQ UK | ChatGPT Business FAQ UK | [chatgpt-business/faq-uk.md](chatgpt-business/faq-uk.md) | [chatgpt-business/faq-uk.html](chatgpt-business/faq-uk.html) |
+| ChatGPT Business Training UK | ChatGPT Business training UK | [chatgpt-business/training-uk.md](chatgpt-business/training-uk.md) | [chatgpt-business/training-uk.html](chatgpt-business/training-uk.html) |
 
 ## Folders
 
